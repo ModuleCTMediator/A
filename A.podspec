@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   Create A podspec to private pod
                    DESC
 
-  s.homepage     = "https://github.com/YSRepository/A"
+  s.homepage     = "https://github.com/ModuleCTMediator/A"
 
 
   s.license      = "MIT"
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/YSRepository/A.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ModuleCTMediator/A.git", :tag => "#{s.version}" }
 
   s.source_files  = "A/A/A/**/*"
   s.requires_arc = true
